@@ -16,7 +16,7 @@ module MyCustomer
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     
-    #config.relative_url_root = "/abc"
-    config.assets.prefix = "/abc/assets"
+    config.relative_url_root = "/abc"
+    #config.assets.prefix = "/abc/assets"
   end
 end
